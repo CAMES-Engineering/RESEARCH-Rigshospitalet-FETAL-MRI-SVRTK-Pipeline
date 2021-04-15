@@ -47,6 +47,8 @@ def callcreator(MYTYPE,INPUTFOLDER,OUTPUTFOLDER,STACK,MASK,TEMPLATE):
 
     call.append("-default")
 
+    # call.append("-remote")
+
 
     return call
 
