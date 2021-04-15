@@ -17,8 +17,8 @@
 
  Open terminal at repository (Right click and choose, open terminal at folder)
 
-  write command chmod u+x run.sh  
-  write command chmod u+x runDSVR.sh
+  write command *chmod u+x run.sh*
+  write command *chmod u+x runDSVR.sh*
 
 
   ## Run
