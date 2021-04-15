@@ -9,17 +9,24 @@
 
 
  ## Prerequisites
- Installed SVRTK (link)  
- Installed dcm2niix (link)
+ Installed [ SVRTK ](https://github.com/SVRTK/SVRTK "GitHub")  
+ Installed [ dcm2niix ](https://github.com/rordenlab/dcm2niix "GitHub")
 
  ## Installation
- Download the script
+ Download the repositoty
 
- open terminal
+ Open terminal at repository (Right click and choose, open terminal at folder)
 
   write command chmod u+x run.sh  
   write command chmod u+x runDSVR.sh
 
 
-  ## run
+  ## Run
+  Open terminal at repository (Right click and choose, open terminal at folder)
+
   ./run.sh
+
+  Choose patient folder (Stacks in STACKS and Mask in MASK)
+  Choose Template stack
+
+  Wait for SVRTK to run
