@@ -30,3 +30,5 @@
   Choose Template stack
 
   Wait for SVRTK to run
+
+  Resulting file is in the "out" folder
