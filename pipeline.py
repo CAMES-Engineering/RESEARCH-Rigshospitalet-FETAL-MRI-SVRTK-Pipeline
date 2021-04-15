@@ -13,6 +13,7 @@ import practicals as pr
 
 
 #Initiation
+p = sp.Popen(["caffeinate","-t", "36000"])
 
 #My path
 myp = os.path.dirname(os.path.abspath(__file__)) + os.sep
@@ -22,7 +23,7 @@ myp = os.path.dirname(os.path.abspath(__file__)) + os.sep
 
 root = Tk()
 root.withdraw()
-folder_selected = filedialog.askdirectory()
+folder_selected = filedialog.askdirectory(initialdir="/",title = "Choose Patient folder")
 print(folder_selected)
 
 pr.setWD(folder_selected)
