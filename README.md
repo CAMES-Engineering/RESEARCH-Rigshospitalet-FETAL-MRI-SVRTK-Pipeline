@@ -7,7 +7,7 @@
 
 
  ## Prerequisites
- Installed SVRTK (link)
+ Installed SVRTK (link)  
  Installed dcm2niix (link)
 
  ## Installation
