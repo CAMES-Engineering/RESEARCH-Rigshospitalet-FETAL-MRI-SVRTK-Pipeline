@@ -71,5 +71,7 @@ def getmaskpath(dirdir):
     print("Python - Practicals: Obtaining Mask")
     for root, dirs, files in os.walk(dirdir, topdown=False):
         for f in files:
-            # print(f)
-            return f
+            if not f.endswith("_Store"):
+                if not f.endswith(".here"):
+                    print(f)
+                    return f
