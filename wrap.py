@@ -75,7 +75,8 @@ print("Python Wrap: Creating Call \n\n\n\n\n")
 
 call = callcreator("DSVR_B",inputfolder,outputfolder,inputlist,mask,template)
 print("Call: \n", call)
-
+with open(outputfolder + os.sep + "call.file",'w') as f:
+    f.write(str(call))
 
 print("Starting SVRTK \n\n\n\n\n")
 
