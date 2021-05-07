@@ -22,7 +22,7 @@
 
 
   ## Run
-  Open terminal at repository (Right click and choose, open terminal at folder)
+  Open terminal at repository (Folder with code that you've downloaded) (Do so by right click and choose: open terminal at folder). Now run the command
 
   ./run.sh
 
